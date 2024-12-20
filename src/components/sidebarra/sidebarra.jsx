@@ -10,17 +10,18 @@ import {
     HiCloudDownload,
     HiVideoCamera,
 } from 'react-icons/hi';
+import { Link } from 'react-router-dom';
 
 export function Sidebarra() {
     return (
         <Sidebar>
             <Sidebar.Items>
                 <Sidebar.ItemGroup>
-                    <Sidebar.Item href="#" icon={HiChartPie}>
-                        Dashboard
+                    <Sidebar.Item icon={HiChartPie}>
+                        <Link to="/">Dashboard</Link>
                     </Sidebar.Item>
-                    <Sidebar.Item href="#" icon={HiUser}>
-                        Usuarios
+                    <Sidebar.Item icon={HiUser}>
+                        <Link to="/usuarios">Usuarios</Link>
                     </Sidebar.Item>
                     <Sidebar.Item href="#" icon={HiChip}>
                         Computadores
