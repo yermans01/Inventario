@@ -23,28 +23,28 @@ export function Sidebarra() {
                     <Sidebar.Item icon={HiUser}>
                         <Link to="/usuarios">Usuarios</Link>
                     </Sidebar.Item>
-                    <Sidebar.Item href="#" icon={HiChip}>
-                        Computadores
+                    <Sidebar.Item icon={HiChip}>
+                        <Link to="/computadores">Computadores</Link>
                     </Sidebar.Item>
-                    <Sidebar.Item href="#" icon={HiDesktopComputer}>
-                        Pantalla
+                    <Sidebar.Item icon={HiDesktopComputer}>
+                        <Link to="/pantalla">Pantalla</Link>
                     </Sidebar.Item>
-                    <Sidebar.Item href="#" icon={HiPrinter}>
-                        Impresora
+                    <Sidebar.Item icon={HiPrinter}>
+                        <Link to="/impresora">Impresora</Link>
                     </Sidebar.Item>
-                    <Sidebar.Item href="#" icon={HiVideoCamera}>
-                        Proyectores
+                    <Sidebar.Item icon={HiVideoCamera}>
+                        <Link to="/proyectores">Proyectores</Link>
                     </Sidebar.Item>
                 </Sidebar.ItemGroup>
                 <Sidebar.ItemGroup>
-                    <Sidebar.Item href="#" icon={HiCloudUpload}>
-                        Ingreso
+                    <Sidebar.Item icon={HiCloudUpload}>
+                        <Link to="/ingreso">Ingreso</Link>
                     </Sidebar.Item>
-                    <Sidebar.Item href="#" icon={HiCloudDownload}>
-                        Egreso
+                    <Sidebar.Item icon={HiCloudDownload}>
+                        <Link to="/egreso">Egreso</Link>
                     </Sidebar.Item>
-                    <Sidebar.Item href="#" icon={BiBuoy}>
-                        Bodega
+                    <Sidebar.Item icon={BiBuoy}>
+                        <Link to="/bodega">Bodega</Link>
                     </Sidebar.Item>
                 </Sidebar.ItemGroup>
             </Sidebar.Items>

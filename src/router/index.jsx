@@ -13,6 +13,34 @@ const router = createBrowserRouter([
         path: '/usuarios',
         element: <Users />,
     },
+    {
+        path: '/computadores',
+        element: <div>compus</div>,
+    },
+    {
+        path: '/pantalla',
+        element: <div>pantalla</div>,
+    },
+    {
+        path: '/impresora',
+        element: <div>impresora</div>,
+    },
+    {
+        path: '/proyectores',
+        element: <div>proyectores</div>,
+    },
+    {
+        path: '/ingreso',
+        element: <div>ingreso</div>,
+    },
+    {
+        path: '/egreso',
+        element: <div>egreso</div>,
+    },
+    {
+        path: '/bodega',
+        element: <div>bodega</div>,
+    },
 ]);
 const MyRoutes = () => <RouterProvider router={router} />;
 
