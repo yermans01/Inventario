@@ -2,6 +2,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from '../views/Home/index';
 import Users from '../views/Users/index';
 import Error404 from '../views/Error404';
+import Computadores from '../views/Computadores/index';
+import Pantalla from '../views/Pantalla';
+import Impresora from '../views/Impresoras';
+import Proyector from '../views/Proyector';
+import Ingreso from '../views/Ingreso';
+import Egreso from '../views/Egreso';
+import Bodega from '../views/Bodega';
 
 const router = createBrowserRouter([
     {
@@ -15,31 +22,31 @@ const router = createBrowserRouter([
     },
     {
         path: '/computadores',
-        element: <div>compus</div>,
+        element: <Computadores />,
     },
     {
         path: '/pantalla',
-        element: <div>pantalla</div>,
+        element: <Pantalla />,
     },
     {
         path: '/impresora',
-        element: <div>impresora</div>,
+        element: <Impresora />,
     },
     {
         path: '/proyectores',
-        element: <div>proyectores</div>,
+        element: <Proyector />,
     },
     {
         path: '/ingreso',
-        element: <div>ingreso</div>,
+        element: <Ingreso />,
     },
     {
         path: '/egreso',
-        element: <div>egreso</div>,
+        element: <Egreso />,
     },
     {
         path: '/bodega',
-        element: <div>bodega</div>,
+        element: <Bodega />,
     },
 ]);
 const MyRoutes = () => <RouterProvider router={router} />;
